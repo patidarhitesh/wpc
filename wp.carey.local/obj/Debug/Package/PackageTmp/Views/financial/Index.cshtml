@@ -1,0 +1,10 @@
+﻿@model wp.carey.local.Models.financialList
+
+
+<ul>
+    @foreach (var item in Model.fList)
+    {
+        <li>@item["description"]</li>
+    }
+
+</ul>

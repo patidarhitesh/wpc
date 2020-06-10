@@ -1,0 +1,15 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+@{
+
+}
+
+<div style="margin:30px 0;">
+    <p class="contactHeading">@Html.Sitecore().Field("ContentHeading")</p>
+    <p class="contactName">@Html.Sitecore().Field("ContentIntro")</p>
+    <!--<p class="contactMail"><a href="mailto:">publicrelations@wpcarey.com</a></p>-->
+    <p class="contactMail"> <span class="glyphicon glyphicon-envelope" aria-hidden="true" data-toggle="modal" data-target="#contactBox" data-keyboard="false" data-backdrop="static"></span></p>
+    <p class="contactNo">@Html.Sitecore().Field("Phone")</p>
+</div>
+

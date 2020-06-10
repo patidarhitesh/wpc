@@ -1,0 +1,14 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+@{
+    var item1 = RenderingContext.Current.Rendering.Item;
+
+}
+
+<ul>
+    @foreach (var item in item1.Children.ToArray())
+    {
+    <li><a href="javascript:void(0);">@item["description"]<span class="glyphicon glyphicon-chevron-right"></span></a></li>
+    }
+</ul>

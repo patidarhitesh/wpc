@@ -1,0 +1,21 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+@{
+     var url = Sitecore.Links.LinkManager.GetItemUrl(Model.Item);
+}
+<div class="col-md-3 col-sm-4" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="0">
+    <div class="bioSection">
+        <a href="@url"></a>
+        <div class="bioImg">
+            @Html.Sitecore().Field("Image", new { @class = "img-responsive", mw = 500, mh = 333 })
+        </div>
+        <div class="bioDetail">
+            <h4>@Html.Sitecore().Field("Name")</h4>
+            <p>@Html.Sitecore().Field("Detail1")</p>
+            <p>@Html.Sitecore().Field("Detail2")</p>
+            <p>@Html.Sitecore().Field("Detail3")</p>
+            <p>@Html.Sitecore().Field("Detail4")</p>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,22 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+@{
+
+}
+<!-- about banner section start here-->
+<div class="workingWPCBanner" style="background-image:url(images/workingWPCBanner.jpg)"> &nbsp;</div>
+<!-- about banner section ends here-->
+<!-- contact us section starts here -->
+<div class="contactUsSection">
+    <div class="container">
+        @Html.Sitecore().Placeholder("Banner")
+        @Html.Sitecore().Placeholder("DetailsRow")
+    </div>
+</div>
+<!-- contact us section ends here -->
+<!-- office location section starts here -->
+@Html.Sitecore().Placeholder("OfficeLocation")
+
+
+<!-- office location section ends here -->

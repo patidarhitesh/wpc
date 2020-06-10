@@ -1,0 +1,40 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+@{
+
+}
+    <div class="portfolioSection">
+        <div class="container">
+            <div class="commonContent">
+                <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-offset="0"><a href="javascript:void(0);">@Html.Sitecore().Field("ContentName")</a></h2>
+                <h3 data-aos="fade-up" data-aos-duration="1000" data-aos-offset="0">@Html.Sitecore().Field("ContentHeading")</h3>
+                <div data-aos="fade-up" data-aos-duration="1000" data-aos-offset="0">
+                    <p>
+                        @Html.Sitecore().Field("ContentIntro")
+                    </p>
+                </div>
+            </div>
+            @Html.Sitecore().Placeholder("Stats")    
+        </div>
+            <div class="readMore" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="0"> <a href="javascript:void(0);" class="customBtn"> read more</a> </div>
+        </div>
+        <div class="imageSectionBar">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-2 col-xs-6">
+                        <div class="bgImage" style="background-image:url(/images/bandImage-01.jpg);" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="0"> &nbsp; </div>
+                    </div>
+                    <div class="col-sm-4 col-xs-6">
+                        <div class="bgImage" style="background-image:url(/images/bandImage-02.jpg);" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="0"> &nbsp; </div>
+                    </div>
+                    <div class="col-sm-4 col-xs-6">
+                        <div class="bgImage" style="background-image:url(/images/bandImage-03.jpg);" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="0"> &nbsp; </div>
+                    </div>
+                    <div class="col-sm-2 col-xs-6">
+                        <div class="bgImage" style="background-image:url(/images/bandImage-04.jpg);" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="0"> &nbsp; </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

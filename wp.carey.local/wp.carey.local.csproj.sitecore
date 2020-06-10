@@ -1,0 +1,74 @@
+﻿<Project>
+  <PropertyGroup>
+    <Site Server="wp.carey.local" UserName="sitecore\admin" IsRemoteSitecore="False" />
+  </PropertyGroup>
+  <File Include="Views\WPC\Home\Layouts\Home.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{05BA0F7E-469F-4D69-9036-9A641DFD36D1}</Item>
+  </File>
+  <File Include="/Views/WPC/Home/Layouts/Home.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{05BA0F7E-469F-4D69-9036-9A641DFD36D1}</Item>
+  </File>
+  <File Include="Views\WPC\Home\Report.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{32C82891-003C-44F9-9B9E-1471B47E119D}</Item>
+  </File>
+  <File Include="/Views/WPC/Home/Report.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{32C82891-003C-44F9-9B9E-1471B47E119D}</Item>
+  </File>
+  <File Include="/Views/WPC/Home/Report1.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{7BE225EC-61D6-4198-A564-6F0A2E0F16C3}</Item>
+  </File>
+  <File Include="/Views/WPC/Home/Report2.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{E375DFEA-D33A-426D-B8DC-4B82C0DF2373}</Item>
+  </File>
+  <File Include="Views\WPC\Home\ReportSection.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{01EC7E1E-9EF8-496C-8454-C75DCE5D593F}</Item>
+  </File>
+  <File Include="Views\WPC\Home\OurCapabilities.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{3D512D38-7C9E-44B1-873E-3B2555B12FC8}</Item>
+  </File>
+  <File Include="Views\WPC\Contact Us\DetailsRow.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{0A0956E4-9412-4EFB-B3A3-ADB7F9E3CCDA}</Item>
+  </File>
+  <File Include="Views\WPC\Contact Us\Details.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{D294F006-D721-41A7-BDFB-C786853ACE73}</Item>
+  </File>
+  <File Include="Views\WPC\Contact Us\Banner.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{F403611A-8C3A-4710-8E9A-3A61E527D583}</Item>
+  </File>
+  <File Include="Views\WPC\Contact Us\OfficeLocation.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{70E0BDA0-110A-4CE3-B773-470CEDB60CEC}</Item>
+  </File>
+  <File Include="Views\WPC\About Us\AboutUsPage\Culture.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{8BDE0D3A-0F3F-4307-B466-C905D77024C3}</Item>
+  </File>
+  <File Include="Views\WPC\About Us\AboutUsPage\People.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{A46D5E23-1C00-4546-BAA0-8294B2548BBA}</Item>
+  </File>
+  <File Include="Views\WPC\About Us\AboutUsPage\Culture2.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{83138C6D-5D4B-486A-8C79-6EB4C6B890CC}</Item>
+  </File>
+  <File Include="Views\WPC\About Us\AboutUsPage\CultureRow.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{024C5545-011E-4E61-A263-964F38BB2605}</Item>
+  </File>
+  <File Include="Views\WPC\About Us\AboutUsPage\CultureItem.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{F62D6611-5B82-4579-A961-42426CBD66AF}</Item>
+  </File>
+  <File Include="Views\WPC\About Us\AboutUsPage\AboutUsPage.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{43B8A214-7B71-4DC9-9675-D016CE4CB202}</Item>
+  </File>
+  <File Include="Views\WPC\About Us\Leadership\LeadershipPage.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{A7D15063-A4A0-44A4-8840-B4ADFC3FADBC}</Item>
+  </File>
+  <File Include="Views\WPC\About Us\Leadership Details\LeadershipDetailsPage.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{37D895B3-F90F-4D56-A977-EC23FF90B577}</Item>
+  </File>
+  <File Include="Views\WPC\About Us\Working for WPC\WorkingForWPC.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{41AA0CB0-7A6C-4480-BF2D-900F81653074}</Item>
+  </File>
+  <File Include="Views\WPC\About Us\Layout\AboutUsOld.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{62DE61F0-36D0-40DB-BEF6-C0DBA29A7359}</Item>
+  </File>
+  <File Include="/Views/WPC/About Us/Layout/ViewLayout1.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{62DE61F0-36D0-40DB-BEF6-C0DBA29A7359}</Item>
+  </File>
+</Project>

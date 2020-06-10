@@ -1,0 +1,30 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+@{
+    var working = Sitecore.Context.Database.GetItem("/sitecore/content/WorkingForWPC/WorkingForWPC");
+    var workingUrl = Sitecore.Links.LinkManager.GetItemUrl(working);
+    var leadership = Sitecore.Context.Database.GetItem("/sitecore/content/Leadership");
+    var leadershipUrl = Sitecore.Links.LinkManager.GetItemUrl(leadership);
+}
+<!-- about banner section start here-->
+<div class="aboutUsBanner" style="background-image:url(/images/aboutUsBanner.jpg)"> &nbsp;</div>
+<!-- about banner section ends here-->
+<!-- secondary navigation starts here -->
+<div class="secondaryNav">
+    <div class="container">
+        <div class="navSelect">
+            <h3 class="navHeader">Company Timeline</h3>
+            <ul>
+
+                <li> <a href="javascript:void(0)" class="hidden-xs">Company Timeline </a> </li>
+                <li> <a href="@leadershipUrl">Leadership</a> </li>
+                <li> <a href="@workingUrl">Working for WPC</a> </li>
+                <li> <a href="javascript:void(0)">Carey Forward</a> </li>
+                <li> <a href="javascript:void(0)">Media Room</a> </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- secondary navigation ends here -->
+@Html.Sitecore().Placeholder("AboutUs")

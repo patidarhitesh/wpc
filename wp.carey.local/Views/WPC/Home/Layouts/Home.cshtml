@@ -1,0 +1,366 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Analytics.Extensions
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+@{
+    Layout = null;
+    var home = Sitecore.Context.Database.GetItem("/sitecore/content/Home/Home");
+    var homeUrl = Sitecore.Links.LinkManager.GetItemUrl(home);
+    var aboutUs = Sitecore.Context.Database.GetItem("/sitecore/content/About Us Page");
+    var aboutUsUrl = Sitecore.Links.LinkManager.GetItemUrl(aboutUs);
+    var contactUs = Sitecore.Context.Database.GetItem("/sitecore/content/Contact Us");
+    var contactUsUrl = Sitecore.Links.LinkManager.GetItemUrl(contactUs);
+}
+
+
+<!doctype html>
+<html>
+<head>
+    @Html.Sitecore().VisitorIdentification()
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="@Html.Sitecore().Field("MetaDescription", new {DisableWebEdit=true})" />
+    <title>@Html.Sitecore().Field("MetaTitle", new { DisableWebEdit = true })</title>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="/css/aos.css">
+    <link rel="stylesheet" href="https://use.typekit.net/igr3qzy.css">
+</head>
+<body>
+    <div class="cookieSection headerCookie">
+        <div class="container">
+            <p> For more than four decades. W. P. Carey has delivered steady income and growth to investors while unlocking the value of critical real estate assets. providing credit worthy companies with capital to support their growth and operating initiatives.</p>
+            <div class="acceptCookie">
+                <input type="button" class="customBtn" value="Accept">
+            </div>
+        </div>
+    </div>
+    <!-- header section starts here -->
+    <header>
+        <div class="headerMain">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-xs-6 col-sm-6">
+                        <div class="logo"> <a href="@homeUrl" title="WPC Refresh"><img src="/images/logo.png" alt="WPC Refresh" class="img-responsive"></a> </div>
+                    </div>
+                    <div class="col-md-7 hidden-xs hidden-sm">
+                        <nav>
+                            <ul>
+                                <li> <a href="@aboutUsUrl"> About Us </a> </li>
+                                <li> <a href="javascript:void(0);"> Capabilities </a> </li>
+                                <li> <a href="javascript:void(0);"> Portfolio </a> </li>
+                                <li> <a href="javascript:void(0);"> Investors </a> </li>
+                                <li> <a href="@contactUsUrl"> Contact Us </a> </li>
+
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-md-3 col-xs-6 col-sm-6 right-section">
+                        <ul class="pull-right">
+                            <li><a href="javascript:void(0);" class="managedService">managed program</a> </li>
+                            <li><a href="javascript:void(0);" title="Search" class="serchBtn"> <span class="glyphicon glyphicon-search"></span></a> </li>
+                        </ul>
+                        <ul class="mobileIcons pull-right">
+                            <li class="closeMenuDiv">
+                                <p>Close</p>
+                                <div class="crossIcon"><span></span></div>
+                            </li>
+                            <li class="closeSearchDiv">
+                                <div class="crossIcon"><span></span></div>
+                            </li>
+                        </ul>
+                        <div class="mobileMenu">
+                            <div class="menuIcon"> <span></span> </div>
+                            <div class="megaMenu">
+                                <div class="container">
+                                    <ul class="navListing">
+                                        <li>
+                                            <h3 data-title="aboutUs"><a href="javascript:void(0);"> About Us</a> <span><img src="images/arrowRight.png"></span> </h3>
+                                        </li>
+                                        <li>
+                                            <h3 data-title="capability"><a href="javascript:void(0);"> Capabilities</a> <span><img src="images/arrowRight.png"></span> </h3>
+                                        </li>
+                                        <li>
+                                            <h3 data-title="investor"><a href="javascript:void(0);"> Investors </a> <span><img src="images/arrowRight.png"></span> </h3>
+                                        </li>
+                                        <li>
+                                            <h3><a href="javascript:void(0);"> Portfolio</a></h3>
+                                        </li>
+                                        <li>
+                                            <h3> <a href="javascript:void(0);">Contact us </a> </h3>
+                                        </li>
+                                        <li>
+                                            <h3 data-title="manageServices">
+                                                <a href="javascript:void(0);" class="active"> Managed Programs </a> <span><img src="images/arrowRight.png"></span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- second level menu -->
+                            <div class="secondLevelMenu">
+                                <div class="container">
+                                    <div class="backToMenu"> <span><img src="images/arrowLeft.png"></span> <span class="txt">Back</span></div>
+                                    <div class="navListing" id="aboutUs">
+                                        <ul>
+                                            <li> <a href="javascript:void(0);">Overview</a></li>
+                                            <li> <a href="javascript:void(0);">Company Timeline </a></li>
+                                            <li> <a href="javascript:void(0);">Carey Forward</a></li>
+                                            <li> <a href="javascript:void(0);">Working for WPC</a></li>
+                                            <li> <a href="javascript:void(0);">Media Room</a></li>
+                                            <li> <a href="javascript:void(0);">Our People</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="navListing" id="capability">
+                                        <ul>
+                                            <li> <a href="javascript:void(0);">Overview</a></li>
+                                            <li> <a href="javascript:void(0);">Real Estate Financing</a></li>
+                                            <li> <a href="javascript:void(0);">Our Criteria</a></li>
+                                            <li> <a href="javascript:void(0);">Active Portfolio Management</a></li>
+                                            <li> <a href="javascript:void(0);">Investment Team</a></li>
+                                            <li> <a href="javascript:void(0);">Asset Management Team</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="navListing" id="investor">
+                                        <ul class="thirdLevel">
+                                            <li>
+                                                <h3> <a href="javascript:void(0);">Overview</a> </h3>
+                                            </li>
+                                            <li>
+                                                <h3><a href="javascript:void(0);">Press Releases</a> </h3>
+                                            </li>
+                                            <li>
+                                                <h3 data-title="financialList"> <a href="javascript:void(0);">Financial Information</a><span><img src="images/arrowRight.png"></span></h3>
+                                            </li>
+                                            <li>
+                                                <h3 data-title="stockList"> <a href="javascript:void(0);">Stock Information</a> <span><img src="images/arrowRight.png"></span></h3>
+                                            </li>
+                                            <li>
+                                                <h3 data-title="governanceList"> <a href="javascript:void(0);">Governance</a> <span><img src="images/arrowRight.png"></span> </h3>
+                                            </li>
+                                            <li>
+                                                <h3> <a href="javascript:void(0);">Presentations & Webcasts</a> </h3>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="navListing" id="manageServices">
+                                        <ul class="thirdLevel">
+                                            <li>
+                                                <h3><a href="javascript:void(0);"> Prior Programs</a></h3>
+                                            </li>
+                                            <li>
+                                                <h3 data-title="manageServicesList"><a href="javascript:void(0);">CPA -17 Global</a> <span><img src="images/arrowRight.png"></span> </h3>
+                                            </li>
+                                            <li>
+                                                <h3 data-title="manageServicesList"><a href="javascript:void(0);">CPA -18 Global</a> <span><img src="images/arrowRight.png"></span> </h3>
+                                            </li>
+                                            <li>
+                                                <h3 data-title="manageServicesList"><a href="javascript:void(0);">Carey Watermark 1</a> <span><img src="images/arrowRight.png"></span> </h3>
+                                            </li>
+                                            <li>
+                                                <h3 data-title="manageServicesList"><a href="javascript:void(0);">Carey Watermark 2</a> <span><img src="images/arrowRight.png"></span> </h3>
+                                            </li>
+                                            <li>
+                                                <h3><a href="javascript:void(0);">Investor Access</a></h3>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- second level menu ends -->
+                            <!-- third level menu starts here -->
+                            <div class="thirdLevelMenu">
+                                <div class="container">
+                                    <div class="navListing" id="manageServicesList">
+                                        <div class="backToPrevMenu"> <span><img src="images/arrowLeft.png"></span> <span class="txt">Back</span></div>
+                                        <ul>
+                                            <li> <a href="javascript:void(0);">Overview</a></li>
+                                            <li> <a href="javascript:void(0);">Forms & Materials</a></li>
+                                            <li> <a href="javascript:void(0);">Portfolio</a></li>
+                                            <li> <a href="javascript:void(0);">Distribution History</a></li>
+                                            <li> <a href="javascript:void(0);">Corporate Governance</a></li>
+                                            <li> <a href="javascript:void(0);">Press Releases</a></li>
+                                            <li> <a href="javascript:void(0);">SEC Filings</a></li>
+                                            <li> <a href="javascript:void(0);">Organizational Actions</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="navListing" id="financialList">
+                                        <div class="backToPrevMenu"> <span><img src="images/arrowLeft.png"></span> <span class="txt">Back</span></div>
+                                        <ul>
+                                            <li> <a href="javascript:void(0);">SEC Filings</a></li>
+                                            <li> <a href="javascript:void(0);">Insider Filings</a></li>
+                                            <li> <a href="javascript:void(0);">Annual Report & Proxy</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="navListing" id="stockList">
+                                        <div class="backToPrevMenu"> <span><img src="images/arrowLeft.png"></span> <span class="txt">Back</span></div>
+                                        <ul>
+                                            <li> <a href="javascript:void(0);">Return Calculator</a></li>
+                                            <li> <a href="javascript:void(0);">Dividend Information</a></li>
+                                            <li> <a href="javascript:void(0);">Tax Information</a></li>
+                                            <li> <a href="javascript:void(0);">Analyst Coverage</a></li>
+                                            <li> <a href="javascript:void(0);">Investors FAQ </a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="navListing" id="governanceList">
+                                        <div class="backToPrevMenu"> <span><img src="images/arrowLeft.png"></span> <span class="txt">Back</span></div>
+                                        <ul>
+                                            <li> <a href="javascript:void(0);">Officers and Directors</a></li>
+                                            <li> <a href="javascript:void(0);">Board Committees</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- third level menu ends here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="searchContainer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-xs-12">
+                            <ul>
+                                <li class="searchIcon"><a href="javascript:void(0);"> <span class="glyphicon glyphicon-search" aria-hidden="true"></span></a></li>
+                                <li class="searchInput">
+                                    <input type="text" placeholder="Search">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="autoSuggestContainer">
+                    <div class="container">
+                        <ul>
+                            <li>Lorem Ipsum is simply dummy text of the printing and<a href="javascript:void(0);"> typesetting</a> industry.</li>
+                            <li>Lorem Ipsum is <a href="javascript:void(0);"> simply dummy </a> text of the printing and typesetting industry.</li>
+                            <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+                            <li>Lorem Ipsum is simply dummy text of the<a href="javascript:void(0);"> printing</a> and typesetting industry.</li>
+                            <li>Lorem Ipsum is <a href="javascript:void(0);">simply dummy text of the</a> printing and typesetting industry.</li>
+                            <li>Lorem Ipsum is <a href="javascript:void(0);">simply dummy</a> text of the printing and typesetting industry.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header Section ends here -->
+    @Html.Sitecore().Placeholder("main")
+    <!-- footer Section starts here -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2">
+                    <div class="logo"> <a href="javascript:void(0);" title="WPC Refresh"><img src="images/logo.png" alt="WPC Refresh" class="img-responsive"></a> </div>
+                </div>
+                <div class="col-sm-8">
+                    <ul class="footerTop">
+                        <li> <a href="javascript:void(0);">Privacy Policy</a> </li>
+                        <li> <a href="javascript:void(0);">Terms of Use</a> </li>
+                        <li> <a href="javascript:void(0);">Contact Us </a> </li>
+                        <li> <a href="javascript:void(0);">Managed Programs </a> </li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <ul class="socialIcons pull-right">
+                        <li> <a href="javascript:void(0);" title="facebook"> <img src="images/fbIcon.png" alt="facebook"> </a> </li>
+                        <li> <a href="javascript:void(0);" title="facebook"> <img src="images/inIcon.png" alt="linked in"> </a> </li>
+                        <li> <a href="javascript:void(0);" title="twitter"> <img src="images/twitterIcon.png" alt="twitter"> </a> </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row bottomLinks">
+                <div class="col-sm-3 col-md-2">
+                    <h3><a href="javascript:void(0);">About Us</a></h3>
+                    <ul>
+                        <li> <a href="javascript:void(0);">Company Timeline </a></li>
+                        <li> <a href="javascript:void(0);">Carey Forward</a></li>
+                        <li> <a href="javascript:void(0);">Working for WPC</a></li>
+                        <li> <a href="javascript:void(0);">Media Room</a></li>
+                        <li> <a href="javascript:void(0);">Our People</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 col-md-2">
+                    <h3> <a href="javascript:void(0);"> Capabilities </a></h3>
+                    <ul>
+                        <li> <a href="javascript:void(0);">Real Estate Financing</a></li>
+                        <li> <a href="javascript:void(0);">Build to Suite Financing</a></li>
+                        <li> <a href="javascript:void(0);">Sale Leaseback Financing</a></li>
+                        <li> <a href="javascript:void(0);">Investment Criteria</a></li>
+                        <li> <a href="javascript:void(0);">Our Proven Process</a></li>
+                        <li> <a href="javascript:void(0);">Exisiting Net Lease</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 col-md-2">
+                    <h3> <a href="javascript:void(0);">Investors </a></h3>
+                    <ul>
+                        <li> <a href="javascript:void(0);">Overview</a></li>
+                        <li> <a href="javascript:void(0);">Press Releases</a></li>
+                        <li> <a href="javascript:void(0);">Financial Information</a></li>
+                        <li> <a href="javascript:void(0);">Stock Information</a></li>
+                        <li> <a href="javascript:void(0);">Governance</a></li>
+                        <li> <a href="javascript:void(0);">Presentations & Webcasts</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 col-md-2">
+                    <h3> <a href="javascript:void(0);">Portfolio </a></h3>
+                </div>
+                <div class="col-sm-3 col-md-2">
+                    <h3> <a href="javascript:void(0);"> Managed program </a></h3>
+                    <ul>
+                        <li> <a href="javascript:void(0);">Real Estate Financing</a></li>
+                        <li> <a href="javascript:void(0);">Build to Suite Financing</a></li>
+                        <li> <a href="javascript:void(0);">Sale Leaseback Financing</a></li>
+                        <li> <a href="javascript:void(0);">Investment Criteria</a></li>
+                        <li> <a href="javascript:void(0);">Our Proven Process</a></li>
+                        <li> <a href="javascript:void(0);">Exisiting Net Lease</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-12">
+                    <p class="copyRightTxt"> W. P. Carey Inc. &copy; 2018</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- footer Section ends here -->
+
+    <div class="scrollTop"> <img src="images/scrollTop.png" alt="scrollTop"> </div>
+
+    <!-- ceros script below
+    <div class="cerosOverlay">
+    <div class="cerosContainer">
+    <div class="closeCerosBtn"> X </div>
+    <div style='position: relative;width: auto;padding: 0 0 0%;height: 0;top: 0;left: 0;bottom: 0;right: 0;margin: 0;border: 0 none;' id="experience-5aa97cd089b88"><iframe allowfullscreen src='http://view.ceros.com/wp-carey/45-year-anniversary-homepage-video-940x530' style='position: absolute;top: 0;left: 0;bottom: 0;right: 0;margin: 0;padding: 0;border: 0 none;height: 530px;width: 940px' frameborder='0' class='ceros-experience' scrolling='no'></iframe></div><script type="text/javascript" src="http://view.ceros.com/scroll-proxy.min.js"></script>
+    </div>
+    </div>
+    <!-- ceros script ends -->
+    <!-- modal window -->
+    <!-- Video Modal -->
+    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe width="100%" height="500" src="" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal window ends -->
+    <!--included js files -->
+    <script src="https://code.jquery.com/jquery.js" type="text/javascript"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/js/custom.js"></script>
+    <script type="text/javascript" src="/js/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- included js files ends -->
+
+</body>
+</html>

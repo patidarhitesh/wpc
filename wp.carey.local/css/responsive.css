@@ -1,0 +1,673 @@
+@media (min-width: 320px) {
+.searchContainer .glyphicon{left:0px;}
+.logo_gap{margin:2% 0 6%;}
+.investmentBlock .col-sm-6:nth-child(3n+3) { clear: both; }
+sup { font-size: 10px; }
+nav, .managedService, .secondaryNav { display: none; }
+.logo { padding: 15px 0; }
+.banner { height: 490px; }
+.bodyFix { position: fixed; top: 0; left: 0; width: 100%; }
+.rightBox ul li a { padding-left: 40px; }
+.rightBox ul li a span { right: 40px; }
+.screenDividerfull { display: none; }
+.investorBotSection h3 { margin-top: 30px; }
+.bottomLinks { border-top: 1px solid #dfdfdf; margin-top:20px;}
+.bottomLinks li { text-align: center; }
+.bottomLinks h3 { margin-top: 20px; text-align: center; }
+footer .logo { width: 100%; text-align: center; }
+ul.socialIcons { padding: 25px 0; }
+footer .logo a img { display: inline-block; width: 200px; }
+ul.footerTop li { width: 100%; text-align: center; }
+ul.socialIcons { width: 100%; text-align: center; }
+ul.socialIcons li { display: inline-block; padding: 0 10px; }
+.stockBlock h3 { margin-top: 30px; }
+.wpinfotxt, .wpinfoVideo { text-align: center; }
+.videoSection img { display: inline; cursor: pointer; }
+.financialList .listBox, .listSection .listBox { padding-left: 30px; padding-top: 30px; padding-bottom: 30px; }
+.financialList { width: 100%; }
+.financialImage { width: 100%; margin-top: 20px; }
+.wellnessList { float: left; width: 100% }
+.wellnesSection { float: left; width: 100%; margin-top: 20px; height: 290px; }
+.imageSection { float: left; width: 100%; height: 290px; background-size: cover; }
+.listSection { margin-top: 20px; width: 100%; }
+.wellnessList .listBox { padding: 65px 30px; }
+.locationList .locations { width: 100%; float: left; clear: both; margin-top: 40px; }
+.locationList { width: 100%; margin-top: 40px; }
+.headerMain { /*position: fixed;*/ top: 0; left: 0; right: 0; background: #fff; z-index: 13; height: 70px; }
+.navHeader { width: 100%; text-align: left; color: #fff; font-size: 18px; }
+.navHeader:after { content: "\e259"; position: relative; top: 1px; display: inline-block; font-family: 'Glyphicons Halflings'; font-style: normal; font-weight: 400; line-height: 1; -webkit-font-smoothing: antialiased; float: right; }
+.navHeader.open:after { content: "\e260"; position: relative; top: 1px; display: inline-block; font-family: 'Glyphicons Halflings'; font-style: normal; font-weight: 400; line-height: 1; -webkit-font-smoothing: antialiased; }
+.navSelect ul { display: none; }
+.aboutUsBanner { height: 275px; }
+.imageSectionBar .bgImage { height: 110px; }
+.buttons a { margin: 20px 40px; }
+.leftBox, .rightBoxSection { padding: 100px 15px 140px 15px; background-size: cover !important; ; }
+.commonContainer .commonContent h2 { margin-bottom: 60px; }
+.contentContainer { text-align: center; clear: both; float: left; width:100%;}
+.contentContainer ul li { text-align: left; }
+.commonContainer .commonContent h2 { margin-bottom: 0; }
+.commonContainer .commonContent h3, .imageContainer { margin-top: 40px; float: left; clear: both; }
+.mediaContact { padding-bottom: 40px; }
+.resourceBox { padding: 40px 0; float: left; clear: both; width: 100%; }
+.pressReleasePage { text-align: center; }
+.pressReleasePage ul { text-align: left; }
+.pressReleasePage .pressReleaseBlock { text-align: left; }
+.realEstateSection .contentBox { margin-bottom: 40px; }
+form#leaseBackEquityForm {margin-left: 5px;}
+/*mobile menu css */
+header { height: 61px; }
+.overlaySection { background: #fff; position: absolute; top: 0; bottom: 0; left: 0; right: 0; display: none; }
+.mobileMenu { float: right; padding: 15px 10px 0 0; }
+.megaMenu, .secondLevelMenu, .thirdLevelMenu { position: fixed; right: 0; left: 0; background: #fff; bottom: 0; z-index: 12; padding-bottom: 20px; padding-top: 30px; /*left:375px;*/ width: 100%; }
+.secondLevelMenu .navListing ul li, .thirdLevelMenu .navListing ul li { width: 100%; padding: 14px 0 14px 15px; text-align: left; }
+.secondLevelMenu .navListing ul li:first-child, .thirdLevelMenu .navListing ul li:first-child { padding-left: 0; }
+#manageServices.navListing ul li:first-child, #stockList.navListing ul li:first-child, #financialList.navListing ul li:first-child, #governanceList.navListing ul li:first-child { padding-left: 15px; }
+.secondLevelMenu .navListing ul li a, .thirdLevelMenu .navListing ul li a { color: #000; }
+.backToMenu, .backToPrevMenu { padding: 0px 0 35px 0; font-size: 18px; color: #007cba; }
+.backToMenu span, .backToPrevMenu span { float: left; }
+.backToMenu span.txt, .backToPrevMenu span.txt { margin-left: 5px; margin-top: -2px; }
+.secondLevelMenu h3, .thirdLevelMenu h3 { width: 100%; }
+.secondLevelMenu h3 span, .thirdLevelMenu h3 span { float: right; }
+.right-section ul li a.serchBtn { margin: 0px 0 0 5px; padding: 21px 20px; }
+.menuIcon { width: 28px; height: 30px; position: relative; }
+.menuIcon span { -moz-user-select: none; background: #231f20; display: block; font-size: 0; left: 0; position: absolute; top: 39%; width: 100%; opacity: 0.8; height: 2px; -webkit-transition: all .3s ease-in-out 0s; cursor: pointer; }
+.menuIcon span:after, .menuIcon span:before { background: #231f20; content: ""; left: 0; position: absolute; width: 100%; height: 2px; -webkit-transition: all .3s ease-in-out 0s; }
+.menuIcon span:before { transform: translateY(-400%); }
+.menuIcon span:after { transform: translateY(400%); }
+.menuIcon:hover span { opacity: 1; }
+.menuIcon:hover span:after { transform: translate3d(0px, 10px, 0px) rotate(0deg); }
+.menuIcon:hover span:before { transform: translate3d(0px, -10px, 0px) rotate(0deg); }
+.closeMenuDiv, .closeSearchDiv { padding: 20px 0 10px 0; display: none; }
+.closeMenuDiv p { float: left; margin-right: 10px; }
+.closeSearchDiv { background: #0b82bd; color: #fff; }
+.crossIcon { width: 20px; height: 20px; position: relative; float: right; }
+.crossIcon span { -moz-user-select: none; background: transparent; display: block; font-size: 0; left: 0; position: absolute; top: 39%; width: 100%; opacity: 0.8; height: 3px; -webkit-transition: all .3s ease-in-out 0s; cursor: pointer; }
+.crossIcon span:after, .crossIcon span:before { background: #231f20; content: ""; left: 0; position: absolute; width: 100%; height: 3px; -webkit-transition: all .3s ease-in-out 0s; }
+.crossIcon span:before { background: #3397c8; transform: translateY(0px) rotate(45deg); -webkit-transform: translateY(0px) rotate(45deg); }
+.crossIcon span:after { background: #3397c8; transform: translateY(0px) rotate(-45deg); -webkit-transform: translateY(0px) rotate(-45deg); }
+.closeSearchDiv .crossIcon span:before, .closeSearchDiv .crossIcon span:after { background: #fff; }
+.crossIcon:hover span:before { transform: translateY(0px) rotate(45deg) scale(1.2); background: #3397c8; }
+.crossIcon:hover span:after { transform: translateY(0px) rotate(-45deg) scale(1.2); background: #3397c8; }
+.megaMenu { overflow-y: scroll; width: 100%; }
+.megaMenu .navListing { float: left; width: 100%; }
+.megaMenu .navListing li { border-bottom: 1px solid #007cba }
+.megaMenu .navListing h3 span { float: right; }
+.megaMenu .navListing.secondLevel { margin-top: 0; }
+.megaMenu .navListing.secondLevel h3 { display: none; }
+.megaMenu .navListing.secondLevel ul { margin-top: 0; }
+.megaMenu .navListing h3 { font-size: 18px; font-weight: 500; margin: 0; }
+.megaMenu .navListing h3 a { color: #000; }
+.megaMenu .navListing ul { margin-top: 10px; }
+.megaMenu .navListing li { font-size: 16px; width: 100%; clear: both; text-align: left; padding: 10px 0; }
+.megaMenu .navListing li a { color: #000; }
+.megaMenu .navListing li a:hover { color: #007cba; }
+.searchContainer ul li.searchInput { width: 80%; }
+.searchContainer {/* height:80px;*/ background: #003666; border-top: 1px solid #000; position: absolute; width: 100%; display: none; z-index:99;}
+.searchContainer .pull-right { float: right !important; }
+.capabilityContent { margin: 0 auto; padding: 0 15px; text-align: center; color: #fff; }
+.contentBox { padding-top: 40px; }
+/*mobile menu css ends */
+.tabSpacing { margin-top: 30px; }
+.calloutImg {display:none; }
+.colloutTxt { width:100%; }
+.threeCols { text-align: center; }
+.threeCols .calloutImg { width: auto; float: none; display:none; }
+.threeCols .calloutImg img { display: inline; }
+.threeCols .colloutTxt { width: 100%; ; clear: both; margin-top: 20px; }
+.threeCols .colloutTxt .readMore { margin-top: 20px; }
+/*.searchList .tabSpacing{ margin-top:0;}*/
+.searchList .bioDetail { text-align: left; }
+.leadershipSection, .workingWPCBanner, .aboutUsBanner, .capabilityBanner { background-size: cover; }
+.bioSection img { display: inline; text-align: center; }
+.bioDetail { text-align: center; padding-bottom: 20px; }
+.aboutUsSection, .contactUsSection, .leadershipPage, .wpinfoVideo, .leadershipDetailPage, .realEstateSection, .globalSearchContainer, .citizenSection, .managedProgramSection, .portfolioSectionPage, .priorProgramSection, .overviewSection { padding: 40px 0 0 0; }
+.wpinfotxt { padding: 20px 0 20px 0; }
+.aboutUsSection p, .contactUsSection p, .leadershipPage p, .realEstateSection p, .managedProgramSection p, .portfolioSectionPage p, .priorProgramSection p, .overviewSection p { padding: 20px 0 0 0; }
+p.contactHeading, p.contactName, p.contactNo, p.contactMail { padding-top: 10px !important; }
+.smallImgPlaceholder { width: 100%; }
+.detailSection .bioDetail h4 { text-align: left; }
+.detailSection { padding-top: 40px; }
+
+.contactPopUp input, .contactPopUp textarea { width: 100%; border:1px solid #ccc; }
+.contactPopUp label { margin-bottom: 5px; text-align: left; float: left; width:100%;}
+.contactPopUp .row { margin: 15px 0; }
+/*timeline css */
+.companyTimeline { position: relative; padding: 0; margin-top: 50px; }
+.timeline-item { position: relative; }
+.hrLine { position: absolute; width: 2px; background-color: #007cba; left: 30px; right: 0; top: 0; bottom: 0; }
+.timelinData { background-color: #f0f0f0; padding: 20px; width: 80%; margin-left: 60px; padding-bottom: 200px; margin-bottom: 40px; }
+.timelineDetail:before { content: ""; border-top: 14px solid transparent; border-bottom: 14px solid transparent; border-left: 20px solid #f0f0f0; position: absolute; transition: border-left 0.3s ease-in; left: -40px; transform: rotate(180deg); top: 8px; }
+.timelineDetail h3 { font-size: 24px; color: #007cba; }
+.timelineDetail p { margin-top: 20px; line-height: 1.5; }
+.timeline-item:before { content: attr(data-rel); position: absolute; background-color: #fff; line-height: 1.5; text-align: center; color: black; font-size: 14px; transition: background-color 0.3s ease-in; top: 0; font-size: 20px; color: #003666; border-bottom: 2px solid #007cba; padding-top: 10px; left: -5px; font-weight: 700; }
+.timelinePage { margin-top: 50px; }
+.timelineImage { position: absolute; left: -45px; bottom: 0; left: 20px; border: 3px solid #fff; box-shadow: 0 5px 5px -5px #333; }
+.timeline-item:after { content: ""; position: absolute; background-color: #fff; top: 42px; width: 15px; height: 15px; left: 5px; }
+.commonContent h2 { font-size: 14px; }
+.searchBarHeader input[type="text"] { width: 50%; padding: 6px 0; font-size: 14px; }
+.largeImgPlaceholder { clear: both; float: left; margin-top: 40px; }
+/*timeline css ends */
+
+/*managed program page css */
+.investData .type { width: 90px; }
+.managedProgramSection .data p { font-size: 36px; }
+.classType span { margin: 0 4px; font-size: 14px; }
+.investData .percent { font-size: 16px; }
+.investData .percent span { margin: 0 10px; }
+.investData .type { font-size: 14px; }
+/*managed program page css ends*/
+
+/*portfolio page css here */
+.chartDataList { margin-top: 0px; }
+.chartDataList li { width: 100%; text-align: left; }
+.graphListing { text-align: center; }
+.graphListing img.img-responsive { display: inline-block; }
+.innerTable { display: none; }
+.tenantListTab { clear: both; }
+.tenantListTab table { border: 1px solid #e3e3e3; width: 100%; border-collapse: collapse; }
+.tenantListTab table th { text-align: center; padding: 20px; }
+.tenantListTab table td { padding: 20px; border: 1px solid #e3e3e3; border-right: 0; border-left: 0; }
+.tenantListTab ul li { margin: 10px 0; }
+.tenantListTab ul li a { padding: 10px 20px; background-color: #11406c; color: #fff; display: block; }
+.tenantListTab ul li a:after { content: url(../images/arrowBot.png); float: right; }
+.tenantListTab ul li a.active:after { content: url(../images/arrowTop.png); }
+.mobileTable { margin-top: 40px; }
+.mobileTable ul li { padding: 10px 0; text-align: left; font-weight: 500; }
+.mobileTable ul li:first-child { border-bottom: 0; }
+.mobileTable ul li a { padding: 10px 20px; color: #000; display: block; }
+.mobileTable table { width: 100%; }
+.mobileTable table th { background: #003366; color: #fff; padding: 15px; }
+.mobileTable table td { padding: 15px; border-bottom: 1px solid #e3e3e3; }
+.mobileTable table td:nth-child(2n+1) { width: 70%; }
+.tenantListLargeDevice { display: none; }
+.filterSection ul li { display: inline-block; margin: 0 10px 0 0; width: 100%; margin: 10px 0; }
+.filterSection ul li.filterHeading { background: #003666; color: #fff; text-transform: uppercase; padding: 15px 10px; position: relative; text-align: center; }
+.filterSection ul li.filterHeading:after { content: url(../images/filterArrowBot.png); position: absolute; bottom: -14px; left: 50%; transform: translateX(-50%); }
+.filterSection ul li.filterData a { padding: 15px 10px; border-bottom: 1px solid #c0c0c0; background: url(../images/filterRightArrowBot.png) center right no-repeat; display: inline-block; width: 100%; }
+.filterSection ul li.goBtn { text-align: center; }
+.filterSection ul li.goBtn a { padding: 12px 25px; border: 1px solid #003666; display: inline-block; margin: 0 auto; }
+.filterSection ul li.goBtn a:hover { background: #003666; color: #fff; }
+.filterList { margin-top: 20px; }
+.filterDetail { padding: 20px; background: #fff; border: 1px solid #e1e1e1; margin: 10px 0; }
+.filterDetail h3 { color: #003666; font-size: 16px; font-weight: 700; }
+.filterDetail p { color: #000000; font-size: 16px; font-weight: 300; line-height: 1.5; margin-top: 10px; }
+.searchPage { display: block !important; }
+.filterSection h2 { color: #fff !important; }
+.filterSection .searchBarHeader { margin: 0; }
+.filterSection .searchBarHeader input[type="text"] { padding: 12px 0; }
+.filterSection .customBtn { padding: 14px; }
+.priorProgramTable { display: none; }
+.taxInformtationTable .priorProgramTable { display: block; }
+.relatedSection h3 { margin-top: 40px; }
+/*.distributionTable{ min-width:330px; height:400px; overflow:scroll;}*/
+.taxInformtationTable { min-width: 300px; overflow: scroll; }
+.searchBar ul li { width: 100%; margin: 0; }
+.searchBar div.searchHeding { width: 100%; text-align: center; }
+.searchBar div.searchHeding:after { content: url(../images/filterArrowBot.png); position: absolute; left: 50%; transform: translateX(-50%); bottom: -14px; }
+.blueBarContent { padding: 20px 0; }
+.diversificationType li { margin-right: 5px; }
+.tertiaryNav { display: none; }
+.occupancyTable { display: none; }
+.searchBar .fliterBar li { margin: 10px 0; }
+.tweetSection .readMore { text-align: left; }
+/*portfolio page css ends here */
+
+/*tertairy Nav css */
+.tertiaryNavMobile { padding: 25px; border-bottom: 1px solid #e7e7e7; }
+.tertiaryNavMobile h3 { color: #007cba; font-size: 18px; font-weight: 700; }
+.tertiaryNavMobile h3:after { content: url(../images/filterRightArrowBot.png); float: right; }
+.tertiaryNavMobile h3.active:after { content: url(../images/filterRightArrowTop.png); float: right; }
+.tertiaryNavMobile ul { display: none; }
+.tertiaryNavMobile ul li a { color: #333; margin: 20px 0; display: block; font-size: 18px; }
+.tertiaryNavMobile ul li a:hover { color: #007cba; }
+/*tertairy Nav css ends*/
+.investorBotSection .customBtn { float: left; }
+.investorBotSection .col-sm-6 { clear: both; }
+.managementSection.paddingBot100 .col-sm-6:nth-child(2n+2) { margin-top: 50px; }
+.classType span { margin: 0 10px; font-size: 16px; width: 65px; display: inline-block; }
+.investData .percent span { width: 65px; display: inline-block; text-align: left; }
+.graphTwoCols #pieChart6, .graphTwoCols #pieChart5, .graphTwoCols #pieChart4 { width: 100%; float: left; }
+.copyRightTxt { text-align: center; }
+.locations { margin-top: 40px; float: left; }
+.contactInvestor { float: left; margin-top: 20px; width: 100%; }
+.investmemtDataBlock{ margin:10px 0;}
+
+}
+.graphListing .innerContainer>div { height: 210px; }
+ @media (min-width:480px) {
+.searchBarHeader input[type="text"] { width: 70%; }
+}
+@media (max-width: 767px) {
+	 .ourBenefitSection > div.programSection:not(:last-child) {
+		margin-bottom: 20px;
+	}
+.mediaContact { background: none !important;}
+.summaryTable tr td:nth-child(2n+1){ width:70%;}
+.colloutTxt { text-align:center;}
+.colloutTxt p{ text-align:center !important;}
+.searchContainer ul li input{ font-size:20px;}
+.autoSuggestContainer ul li a { font-size: 20px; line-height: 1.2;}
+.searchpanelglobalContainer{ max-height:120px;}
+.autoSuggestContainer ul{ padding:0 0 20px 0;}
+.video-right .pull-right{ float:none !important;}
+.culture-video {
+    text-align: center;
+}
+.videoSection .img-responsive ,
+.ourHistorySection a.video img.img-responsive {
+ margin-bottom: 15px;
+	
+}
+.VedeoCalloutsection .colloutBlock .videoSection {
+    width: 100%;
+    float: none;
+}
+
+.VedeoCalloutsection .colloutBlock .colloutTxt {
+    width: 100% !important;
+    float: none;
+    padding-top: 0;
+}
+.programSection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+}
+.listSection{
+	margin-top: 0;
+	
+}
+.culture-video.video-right{
+	margin-top: 0px;
+	
+}
+}
+ @media (min-width: 768px) {
+	 .ourBenefitSection > div.programSection:not(:last-child) {
+		margin-bottom: 30px;
+	}
+	 .founder-info .img-responsive{ width:100%;}
+	 .culture-video .videoSection{ text-align:center;    padding-top: 6px;}
+	 .colloutTxt p{ text-align:left !important;}
+	 .centerContent .container{ display:flex; justify-content:center;}
+ .investContent{ min-height:300px;}
+.investmemtDataBlock{ margin:0}
+.logo_gap{margin:2% 0;}
+.calloutImg{ display:block; width:30%; max-width:150px;}
+.colloutTxt{ width:65%; float:right;}
+.threeCols .calloutImg{ display:block; margin:0;}
+.graphTwoCols #pieChart6, .graphTwoCols #pieChart5, .graphTwoCols #pieChart4 { width: 50%; }
+.graphTwoCols #pieChart6 .col-sm-6, .graphTwoCols #pieChart5 .col-sm-6, .graphTwoCols #pieChart4 .col-sm-6 { width: 100%; }
+.banner { height: 550px; }
+.megaMenu .navListing { border: 0; }
+.calloutImg { margin-bottom: 0 }
+.logo { padding: 13px 0; max-height: 27px; width: 200px; display: block; }
+.logo .img-responsive { width: 100%; }
+.navHeader { display: none; }
+.navSelect ul li { width: auto; text-align: center; }
+.searchContainer ul li.searchInput { width: 89%; }
+.megaMenu { padding-top: 50px; left: 0; }
+.megaMenu .navListing.secondLevel h3 { display: block; }
+.megaMenu .navListing.secondLevel ul { margin-top: 10px; }
+.wellnesSection { margin-top: 0; height: auto; }
+.imageSection { height: auto; }
+.col-sm-4:nth-child(3n+1) { clear: both; }
+.financialImage { margin-top: 0; }
+.imageSectionBar .bgImage { height: 275px; }
+.equalColumn { display: flex; }
+.screenDividerfull { display: block; }
+.investorBotSection h3 { margin-top: 0; }
+.rightBox ul li a { padding-left: 20px; }
+.rightBox ul li a { width: 100%; }
+.rightBox ul li a span { right: 10px; }
+.twoCols ul li { width: 50%; float: left; }
+.bottomLinks ul { float: left; clear: both; }
+.bottomLinks { border-top: 0 }
+.bottomLinks h3 { margin-top: 0px; text-align: left }
+.bottomLinks li { text-align: left; }
+footer .logo { width: auto; text-align: left; }
+footer .logo a img { display: block; }
+ul.footerTop li { width: inherit; padding: 10px 20px 0 0; }
+ul.socialIcons { width: auto; }
+ul.socialIcons li { padding: 0; }
+.aboutUsBanner { height: 475px; }
+.secondaryNav ul li a { padding: 25px 10px; }
+.secondaryNav ul li a:hover { color: #73bfe5; }
+.ourCultureSection .col-sm-6:nth-child(2n+1), .ourCoreValue .col-sm-6:nth-child(2n+1), .contactUsSection .col-sm-6:nth-child(2n+1) { clear: both }
+.buttons a { margin: 0px 40px; }
+.leftBox .commonContentInner { float: right; padding-right: 40px; }
+.rightBoxSection .commonContentInner { float: left; padding-left: 40px; }
+.contentContainer h3 { margin-top: 0px; text-align: left; }
+.contentContainer { text-align: left; }
+.contentContainer p { margin: 0px 0 10px 0; }
+.contentContainer ul { margin-top: 5px; }
+.contentContainer { margin-top: -8px; }
+.contentContainer .downloadBtn { margin-top: 20px; }
+.bottomLinks .col-sm-4 { clear: none; }
+.capabilitySection .rightBoxSection { padding-bottom: 0; }
+.capabilitySection .leftBox { padding-bottom: 100px; }
+.capabilityContent { position: relative; top: 50%; transform: translateY(-50%); right: 0; }
+.capabilitySection .rightBox ul { position: relative; top: 50%; transform: translateY(-50%); right: 0; }
+/*common section */
+.contactPopUp input, .contactPopUp textarea { width: 62%; padding-left: 10px; }
+.contactPopUp label { width: 200px; }
+.contactPopUp .row { margin: 5px 0; }
+.mt-10 { margin-top: -10px !important; }
+.commonContent h2 { font-size: 16px; }
+.detailTxt { margin-top: 10px; }
+.contentContainer h4 { margin-top: 0; clear: both; }
+.wellnessList .listBox, .listBoxRight .listBox { padding: 65px 65px 65px 30px; }
+.financialImage { float: right; width: 49%; }
+.financialList { background: #ebf5f9; width: 49%; float: left; }
+.wellnessList { background: #ebf5f9; width: 49%; float: right; order: 2; }
+.wellnesSection { width: 49%; }
+.commonContainer .commonContent h2 { margin-bottom: 40px; }
+.commonContainer .commonContent h3, .imageContainer { margin-top: 0; }
+.listBoxRight .listBox { max-width: 540px; float: left; width: 100%; }
+.listBoxLeft .listBox { max-width: 540px; float: right; width: 100%; }
+.listSection { width: calc(50% - 14px); margin-top: 0; }
+.listBoxLeft .imageSection { order: 2; }
+.imageSection { background-size: cover; background-repeat: no-repeat; width: calc(50% - 14px); }
+.mediaContact { padding-bottom: 250px; background-position: bottom center; }
+.contactBox.right { margin-right: 20px; float: right; }
+.contactBox.left { margin-left: 20px; float: left; }
+.contactBox { margin-top: 50px; }
+.resourceBox { padding: 0; }
+.pressReleasePage { text-align: left; margin-top: 0 !important; margin-bottom: 40px ;  }
+.resourceBox { margin-bottom: 80px; }
+.mediaRoomInvester { padding-top: 0; }
+.contentBox .heading p { margin-top: 20px; }
+.realEstateSection .contentBox { margin-bottom: 0; }
+/*common section ends */
+.locationList .locations { width: 205px; clear: none; margin-top: 0; }
+.managementSection .col-md-3:nth-child(3n+1), .bodSection .col-md-3:nth-child(3n+1) { clear: both; }
+.managementSection .col-sm-3:nth-child(4n+1) { clear: both; }
+.detailSection h4 { padding-top: 0; }
+/*.locationList {
+width:49.5%;
+}*/
+ul.socialIcons { padding: 0; }
+.bioSection img { display: block; text-align: left; }
+.bioDetail { text-align: left; padding-bottom: 0; margin: 20px 0 0 0; }
+.detailSection { padding: 40px 0 0 0; }
+p.contactHeading, p.contactName, p.contactNo, p.contactMail { padding-top: 0 !important; /*margin-left:70px;*/
+}
+.smallImgPlaceholder { width: 140px; }
+.financialList .listBox, .listSection .listBox { padding-top: 35px; padding-bottom: 35px; }
+.programSection { display: flex; justify-content: space-between; }
+
+/*timeline css */
+.timelinData { padding: 40px; margin-left: 80px; }
+.timelineDetail { width: 60%; }
+.timelineImage { left: inherit; right: -45px; top: 40px; bottom: inherit; }
+.timelineDetail:before { top: -14px; left: -60px; }
+.hrLine { left: 50px; }
+.timeline-item:before { left: 15px; }
+.contentBox { margin-top: 0px; padding-top: 0; }
+.timeline-item:after { left: 22px; }
+/*timeline css ends */
+
+/*media room page css starts here */
+.investorBotSection.pressReleasePage ul li { padding: 30px 0 60px 0; margin-top: 20px; }
+.pressReleasePage .pressList { margin-top: 0; }
+.pressReleasePage .pressReleaseBlock { padding: 30px 20px 60px 20px; }
+.bottomTxt { position: absolute; bottom: 20px; }
+/*media room page css ends here */
+.searchBarHeader input[type="text"] { width: 75%; font-size:16px; }
+/*portfolio page css */
+.graphListing { text-align: left; }
+.graphListing img.img-responsive { display: block; }
+.priorProgramTable { display: block; }
+.priorPage { display: none; }
+.relatedSection h3 { margin-top: 0; }
+.searchBar ul li { width: 30%; margin: 0 30px; }
+.searchBar div.searchHeding { width: 100%; text-align: center; }
+.searchBar div.searchHeding:after { content: url(../images/searchBtnRight.jpg); position: absolute; right: -12px; bottom: 7px; left: inherit; transform: none; }
+.diversificationType li { margin-right: 15px; }
+.occupancyTable { display: block; width: 100%; }
+.searchBar .fliterBar li { margin: 10px; }
+/*portfolio page css ends */
+/*managed program page css */
+.classType span { margin: 0 11px; font-size: 16px; }
+.investData .percent { font-size: 22px; }
+.investData .type { font-size: 15px; width: 100px; font-weight:400; }
+.chartDataList ul { float: left; }
+
+/*managed program page css ends */
+.tweetSection .readMore { text-align: center; }
+.investorBotSection .customBtn { float: none; }
+.investorBotSection .col-sm-6 { clear: none; }
+.managementSection.paddingBot100 .col-sm-6:nth-child(2n+2) { margin-top: 0; }
+.portfolioSection .col-sm-6:nth-child(2n+1) { clear: both; }
+.managementModules { display: flex; justify-content: center; }
+.timelinePage { display: none; }
+.blueBarSection .col-sm-3:nth-child(4n+1), .iconBar .col-sm-6:nth-child(3n+1) { clear: both; }
+.copyRightTxt { text-align: left; }
+.bottomLinks .col-sm-3:nth-child(4n+1) { clear: both; }
+.videoLibrarySection { display: flex; justify-content: center; flex-wrap: wrap; }
+.relationTaemSection { padding: 30px 40px; }
+.onlineAccesSection { padding-top: 60px; }
+.onlineAccesSection p { padding: 0 80px !important; }
+.autoSuggestContainer ul{ margin-left:35px !important;}
+}
+ @media (min-width: 992px) {
+	 #dividendSection img.img-responsive{ display:inline;}
+.global_box{float:left;display:flex;}
+.investmentBlock .col-sm-6:nth-child(3n+3) { clear: inherit; }
+.searchContainer { /*height:80px;*/ border-top: 1px solid #000; position: absolute; width: 100%; display: none; z-index:99;}
+.searchContainer .pull-right { float: right !important; }
+.searchContainer ul { margin-left: 20px; border: 0; }
+nav ul li a { padding: 25px 15px 25px 15px; }
+.right-section ul li a.managedService { padding: 25px 15px 25px 0px; }
+.bannerCaption { width: 800px; }
+.aboutWpc { width: 920px; }
+.rightBox ul li a { width: 60%; }
+.lastCol { padding-left: 80px; }
+ul.socialIcons li { padding-left: 5px; }
+.col-sm-4:nth-child(3n+1) { clear: none; }
+.ourCultureSection .col-sm-6:nth-child(2n+1), .ourCoreValue .col-sm-6:nth-child(2n+1), .contactUsSection .col-sm-6:nth-child(2n+1) { clear: none; }
+.contactUsSection .col-sm-6:nth-child(3n+1) { clear: both; }
+.tabSpacing { margin-top: 0; }
+.managementSection .col-md-3:nth-child(3n+1), .bodSection .col-md-3:nth-child(3n+1) { clear: none; }
+.managementSection .col-md-3:nth-child(4n+1), .bodSection .col-md-3:nth-child(4n+1) { clear: both; }
+.locationList { width: 100%; margin: 60px 0 0px 0px; }
+.locationList:first-child { margin-top: 0; }
+.locationList .locations { width: 250px; }
+/*timeline css */
+.timelinData { margin-bottom: 80px; width: 85%; }
+/*timeline css ends */
+.searchBarHeader input[type="text"] { width: 80%; }
+.culture-video .videoSection a.video,.culture-video .videoSection a.video img {
+    display: block;
+}
+}
+ @media (min-width: 1024px) {
+.colloutBlock { width: 50%; }
+.threeCols .colloutBlock { width: 100%; }
+.colloutTxt { float: left;}
+.bottomLinks .col-sm-3:nth-child(4n+1) { clear: none; }
+sup { font-size: 12px; }
+.wpinfoVideo h4 { text-align: left; }
+.chartDataList { margin-top: 35px; }
+.wpinfotxt { padding: 40px 0 40px 0; }
+
+.containerInner .col-md-2 { width: 19.2%; }
+.contactBox.right { margin-right: 140px; float: right; }
+.contactBox.left { margin-left: 140px; float: left; }
+.graphTwoCols { padding: 40px 0; }
+.graphTwoCols li { width: 100%; }
+.chartDataList.fullWidth li { width: 100%; }
+.tenantListTab { display: none; }
+.tenantListLargeDevice { display: block; }
+.filterSection { display: none; }
+.searchPage { margin: 40px 0; width: 100%; float: left; }
+.filterSection ul li { width: 25%; float: left; text-align: left; }
+.filterSection .searchBarHeader input[type="text"] { width: 68%; }
+.filterSection ul li.filterData a { width: 80%; }
+.filterSection ul li.filterHeading { padding: 10px; width: 120px; margin-right: 80px; }
+.filterSection ul li.filterHeading h2 { font-size: 24px !important; }
+.investData .type { width: 200px; }
+.contentBlock { margin-left: 20px; }
+.searchBar div.searchHeding { width: 75%; }
+.chartDataList.cpa17Data li:nth-child(3n+1) { clear: both; }
+/*.chartDataList ul{ width:50%;}*/
+/*.chartDataList.cpa17Data ul{ width:33%;}*/
+.graphTwoCols .chartDataList ul { width: 100%; }
+.midContainer, .graphTwoCols { width: 900px; margin: 0 auto; }
+.taxInformtationTable { overflow: hidden; }
+.portfolioSection .col-sm-6:nth-child(2n+1) { clear: none; }
+.portfolioSection .col-sm-6:nth-child(3n+1) { clear: both; }
+.classType span { margin: 0 10px; font-size: 16px; width: 65px; display: inline-block; }
+.investData .percent span { width: 65px; display: inline-block; text-align: left; }
+.locationList .locations { margin-top: 40px; }
+.contactInvestor { float: right; width: 85%; }
+.autoSuggestContainer ul{ margin-left:45px !important;}
+.contactPopUp label{ width:100%;}
+}
+ @media (min-width: 1025px) {
+.autoSuggestContainer ul{ margin-left:55px !important; padding:0;}
+.contactPopUp label{ width:200px;}
+.largeImgPlaceholder { clear: none; margin-top: 0; margin-right: 20px; }
+.locations { margin-top: 0; float: left; }
+.graphTwoCols #pieChart6 .col-sm-6, .graphTwoCols #pieChart5 .col-sm-6, .graphTwoCols #pieChart4 .col-sm-6 { width: inherit; }
+span.scWebEditInput { width: 100% !important; padding-left: 20px !important; }
+.scEnabledChrome .stockBlock { min-height: 320px; }
+.tertiaryNavMobile { display: none; }
+.tertiaryNav { display: block; }
+.tertiaryNav .container{ display:flex; justify-content:center;}
+header { height: 70px; }
+.locationList .locations { margin-top: 0px; }
+nav { display: block; margin-left: 50px; }
+.listSection .listBox { padding: 65px 0; }
+.navSelect ul, .secondaryNav { display: block; }
+.managedService { display: inline-block; }
+.headerMain { box-shadow: 0 5px 5px -5px #333; }
+.mobileMenu { display: none; }
+.logo { padding: 22px 0 20px 0; max-height: 27px; width: 200px; display: block; }
+.listBoxRight .listBox { padding-left: 65px; }
+.listBoxLeft .listBox { padding-right: 65px; }
+nav ul li a { padding: 25px 15px 25px 15px; }
+.secondaryNav ul li a { padding: 25px 10px 25px 10px; margin: 0 10px; }
+.wpinfotxt { text-align: left; }
+.wpinfoVideo { max-width: 525px; float: right; }
+
+.leaseBackExecuted .wpinfotxt { padding:40px 0 0 0; }
+.salesLeaseWork .wpinfotxt{ padding:80px 0 0 0;}
+.locationList .locations { width: 50%; float: left; }
+.financialList .listBox { padding: 65px 0; }
+.detailSection { padding: 100px 0 0 0; }
+.col-sm-4:nth-child(3n+1) { clear: none; }
+.col-sm-4:nth-child(4n+1) { clear: both; }
+.containerInner .col-md-2 { width: 20%; }
+.financialList .listBox { padding-left: 0px; }
+.wellnessList .listBox { padding: 65px 0 65px 65px; }
+.commonContainer .commonContent h2 { margin-bottom: 60px; }
+.locationList { width: 100%; }
+.mobileIcons { display: none; }
+.capabilityContent { max-width: 550px; padding-right: 120px; float: right; text-align: left; }
+.col-sm-12 .capabilityContent { max-width: 100%; }
+.rightPull .capabilityContent { max-width: 100%; padding-left: 120px; }
+.leftPull.rightBox ul { padding-left: 120px; }
+.leftPull.rightBox ul li a { width: 90%; }
+.leadershipSection, .workingWPCBanner, .aboutUsBanner { background-size: cover !important; }
+ul.footerTop li { width: inherit; padding: 30px 30px 0 0; }
+ul.socialIcons { padding: 25px 0; }
+.contentBlock { margin-left: 20px; }
+.aboutUsSection, .contactUsSection, .leadershipPage, .wpinfoVideo, .leadershipDetailPage, .realEstateSection, .globalSearchContainer, .citizenSection, .managedProgramSection, .portfolioSectionPage, .priorProgramSection, .overviewSection { padding: 100px 0 0 0; }
+.salesLeaseWork .wpinfoVideo{ padding:40px 0 0 0;}
+.citizenSection { clear: both; float: left; width: 100%; }
+.aboutUsSection p, .contactUsSection p, .leadershipPage p, .realEstateSection p, .managedProgramSection p, .portfolioSectionPage p, .priorProgramSection p, .overviewSection p { padding: 40px 0 0 0; }
+.largeImgPlaceholder { max-width: 920px; float: left; }
+.contactBox { padding-left: 100px; min-width: 300px; }
+.resourceBox { margin-bottom: 0; }
+.mediaRoomInvester { padding-top: 80px; }
+.right-section ul li a.serchBtn { margin:0px 0 0 5px; padding:25px 20px;}
+/*timeline css */
+
+.companyTimeline { position: relative; padding: 50px 0 100px 0; margin-top: 50px; }
+.hrLine { position: absolute; width: 2px; background-color: #007cba; margin: 0 auto; left: 0; right: 0; top: -10px; bottom: 0; }
+.timeline-item { width: 50%; margin: 0px; position: relative; clear: both; box-sizing: border-box; }
+.timeline-item:before { content: attr(data-rel); position: absolute; background-color: #fff; line-height: 1.5; text-align: center; color: black; font-size: 14px; transition: background-color 0.3s ease-in; top: 18px; font-size: 20px; color: #003666; border-bottom: 2px solid #007cba; padding-top: 20px; font-weight: 700; }
+.timeline-item:after { content: ""; position: absolute; background-color: #fff; top: 70px; width: 15px; height: 25px; right: -8px; left: inherit; }
+.timeline-item.right:after { content: ""; position: absolute; background-color: #fff; top: 70px; width: 15px; height: 25px; left: -8px; }
+.timeline-item.left:before { right: -22px; left: inherit; }
+.timeline-item.right:before { right: inherit; left: -22px; }
+.timelinData { background-color: #f0f0f0; padding: 40px; margin-bottom: 0; min-height: 180px; }
+.timelineDetail:before { content: ""; border-top: 14px solid transparent; border-bottom: 14px solid transparent; border-left: 20px solid #f0f0f0; position: absolute; transition: border-left 0.3s ease-in; right: -60px; top: 10px; left: inherit; transform: none; }
+.right .timelineDetail:before { left: -60px; transform: rotate(180deg); right: inherit; }
+.timeline-item.left { float: left; }
+.timeline-item.right { float: right; }
+.left .timelinData { float: left; margin-right: 80px; margin-left: 0; }
+.right .timelinData { float: right; margin-left: 80px; }
+.right .timelinData .timelineDetail { float: left; }
+.timelineImage { position: absolute; left: -45px; top: 40px; border: 3px solid #fff; box-shadow: 0 5px 5px -5px #333; right: inherit; }
+.timelineImage.videoPopup { cursor: pointer; }
+.right .timelinData .timelineImage { right: -45px; left: inherit; }
+.timelineDetail { width: 70%; float: right; }
+/*timeline css ends */
+
+/*managed program page css */
+.relationTaemSection {height:300px;}
+.managedProgramSection .data p, .portfolioTxt .data p{ font-size: 50px; }
+/*managed program page css ends*/
+.aboutUsSection p {
+    padding-top: 28px !important;
+}
+}
+ @media (min-width: 1130px) {
+nav ul li a { padding: 25px 20px 25px 20px; }
+.investContent{ position:relative;}
+.classType{ position:absolute; bottom:20px; right:30px;}
+.searchpanelglobalContainer{ max-height:400px;}
+
+}
+ @media (min-width: 1366px) {
+	.VedeoCalloutsection .colloutBlock{ width:90%;}
+	.aboutWpc{ width:1020px}
+}
+ @media (min-width:1470px) {
+.investContent{ min-height:300px;}
+.VedeoCalloutsection .colloutBlock{ width:75%;}
+.container { max-width: 1366px; }
+.right-section ul li, nav ul li, .secondaryNav ul li, .listBox h3, .wpinfoVideo h4 { font-size: 22px; }
+.contentBox .heading, .contentBox .heading p { font-size: 24px; }
+.aboutUsSection h2, .contactUsSection h2, .leadershipPage h2, .leadershipDetailPage h2, .globalSearchContainer h2, .pressReleaseContainer h2, .investmentBlock ul li span.largeTxt, .managedProgramSection h2, .portfolioSectionPage h2, .priorProgramSection h2, .overviewSection h2 { font-size: 36px }
+.bannerCaption h1 { font-size: 60px; }
+.aboutWpc { width: 1350px; }
+.aboutWpc p, .officeLocationSection h3 { font-size: 30px; }
+.customBtn, .rightBox ul li a, .investorBotSection ul li p.publicationName, .investorBotSection ul li p.datetxt, .pressReleaseBlock p.datetxt { font-size: 18px; }
+.right-section ul li a.managedService, nav ul li a { padding: 23px 20px 23px 20px; }
+.bottomLinks li { font-size: 16px; }
+.culture-video ,.commonContent h2, .portfolioTxt h4, .investorBotSection h3, .pressReleaseBlock p, .stockBlock p, .aboutUsSection p, .contactUsSection p, .leadershipPage p, .ourCoreValue h2, .managementSection h2, .bodSection h2, .leadershipDetailPage p, .mediaContact h2, .resourceSection h2, .contentContainer ul li, .contactBox p.contactType, .resourceBox h3, .tweetContainer p.tweetHeading, .tweetSection h2, .realEstateSection p, .timelineDetail p, .modalTitle, .investmentBlock ul li span.headerTxt, .managedProgramSection p,  .priorProgramSection p, .overviewSection p,#materialSection h2,#dividendSection h2,#portfolioSection h2,.annualReportCallout p { font-size: 20px; }
+.commonContent h3, .capabilityContent h3, .botHeadLineTxt h4, .wpinfotxt h3,  .timelineDetail h3, .leadershipPage h3, .realEstateSection h3, .aboutUsSection h3, .managedProgramSection h3 { font-size: 30px; }
+.contentContainer h4, .investmentBlock ul li span.middleTxt { font-size: 26px; }
+.commonContent p, .capabilityContent p, ul.footerTop li, .detailTxt p, .listBox li, .wpinfotxt p, .officeLocationSection p.headerTxt, .locations h4, .tweetContainer p.tweetTxt, .commonContentInner h3, .commonContentInner ul li, .commonContentInner p, .botHeadLineTxt p, ul.searchList li, ul.pressRelease li, .listBox p, .taxListing ul li, .contentBox p { font-size: 20px; }
+.capabilityContent { max-width: 650px; }
+.data p, .managedProgramSection .data p, .data p, .portfolioTxt .data p{ font-size: 42px; }
+.listBox li { padding: 2px 20px }
+.contentBlock { margin-left: 70px; }
+.leaderQuote span+span, .locationList .locations p, .locations p, .downloadBtn a, .botHeadLineTxt a.customBtn, .contactBox p.mediacontactName, .contactBox p.mediacontactMail, .contactBox p.mediacontactPhone, .resourceBox p, .resourceBox ul li a, .tweetSection p.tweetDate, ul.searchList li span, ul.pressRelease li span { font-size: 18px; }
+.downloadBtn span { padding: 10px 10px 5px; }
+.pressReleasePage .pressReleaseBlock { padding: 30px 20px 50px 20px; }
+.investorBotSection.pressReleasePage ul li { padding: 30px 0 100px 0; margin-top: 20px;}
+.downloadBtn, .resourceBox .readMore { margin-top: 62px; }
+.tertiaryNav{ padding: 18px 0;}
+.modalContent ul li p{ font-size: 20px; }
+.tertiaryNav ul li a { font-size: 17px; }
+.searchBarHeader input[type="text"] { padding: 6px 0; font-size: 20px; }
+.tertiaryNav ul li { padding: 0 10px; }
+.piechart-disclaimer p{ font-size:16px !important;}
+.tertiaryNav.fixed{ top:70px;}
+#searchList li p+p{ font-size:18px;}
+}
+@media (max-width: 1024px){
+	.VedeoCalloutsection .colloutBlock {
+			width: 100%;
+		}
+	
+}
+

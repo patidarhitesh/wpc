@@ -1,0 +1,45 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+@{
+
+}
+<!-- banner Section starts here -->
+<div class="banner" style="background-image:url(/images/bannerImg.jpg)">
+    <div class="container-fluid">
+        <div class="bannerCaption" data-aos="fade-in" data-aos-duration="2000">
+            <h1>@Html.Sitecore().Field("ContentHeading")</h1>
+        </div>
+    </div>
+</div>
+<!-- banner Section ends here -->
+<!-- about WPC section -->
+<div class="container">
+    <div class="aboutWpc" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="0">
+        <p>@Html.Sitecore().Field("ContentIntro") </p>
+    </div>
+    <div class="aboutBtn" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="0"> <a href="javascript:void(0);" class="customBtn"> Who We Are</a> </div>
+</div>
+<!-- about WPC section ends -->
+<!-- new callout section starts here -->
+<div class="annualReportCallout">
+    <div class="screenDivider aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="0">&nbsp;</div>
+    @Html.Sitecore().Placeholder("ReportSection")
+</div>
+
+<div class="VedeoCalloutsection">
+    <div class="screenDivider aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="0">&nbsp;</div>
+    <div class="container">
+        @Html.Sitecore().Placeholder("ReportVideo")
+    </div>
+</div>
+<!-- new callout section ends here -->
+<!-- capability section statrs here-->
+@Html.Sitecore().Placeholder("OurCapabilities")
+<!-- capability section ends here-->
+<!-- portfolio section starts here -->
+@Html.Sitecore().Placeholder("OurPortfolio")
+<!-- portfolio section ends here -->
+<!-- investor section starts here -->
+@Html.Sitecore().Placeholder("OurInvestors")
+<!-- investor section ends here -->

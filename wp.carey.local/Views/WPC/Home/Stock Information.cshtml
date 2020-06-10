@@ -1,0 +1,13 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+@{
+
+}
+   
+<div class="stockContent">
+    <p>@Html.Sitecore().Field("Heading")</p>
+    <p class="largeTxt">@Html.Sitecore().Field("Stock Price")</p>
+    <p>Change: @Html.Sitecore().Field("Change")</p>
+    <p>As of @Html.Sitecore().Field("Date", new { format = "MMMM dd,yyyy" })</p>
+</div>

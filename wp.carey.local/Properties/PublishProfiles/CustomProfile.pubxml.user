@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\inetpub\wwwroot\wpc.sc</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="App_Config/Include/WPC/wpc.site.config">
+      <publishTime>01/13/2020 15:56:46</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 11:48:56</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>06/13/2016 23:06:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.AccessControl.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.AccessControl.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Claims.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Principal.Windows.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>11/28/2018 13:04:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>11/28/2018 12:59:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>11/28/2018 13:00:12</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Deployment.dll">
+      <publishTime>11/28/2018 13:04:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.dll">
+      <publishTime>11/28/2018 13:04:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Razor.dll">
+      <publishTime>11/28/2018 13:04:24</publishTime>
+    </File>
+    <File Include="bin/wp.carey.local.dll">
+      <publishTime>01/13/2020 11:51:08</publishTime>
+    </File>
+    <File Include="bin/wp.carey.local.pdb">
+      <publishTime>01/13/2020 11:51:08</publishTime>
+    </File>
+    <File Include="Business/financialListBuilder.cs">
+      <publishTime>01/10/2020 14:56:48</publishTime>
+    </File>
+    <File Include="Controllers/financialController.cs">
+      <publishTime>01/10/2020 14:58:07</publishTime>
+    </File>
+    <File Include="css/aos.css">
+      <publishTime>12/27/2019 10:30:43</publishTime>
+    </File>
+    <File Include="css/responsive.css">
+      <publishTime>12/27/2019 10:30:43</publishTime>
+    </File>
+    <File Include="css/style.css">
+      <publishTime>01/09/2020 16:24:23</publishTime>
+    </File>
+    <File Include="images/45yearIcon.jpg">
+      <publishTime>12/27/2019 10:30:43</publishTime>
+    </File>
+    <File Include="images/45yearIcon2.jpg">
+      <publishTime>12/27/2019 10:30:43</publishTime>
+    </File>
+    <File Include="images/aboutUsBanner.jpg">
+      <publishTime>12/27/2019 10:30:43</publishTime>
+    </File>
+    <File Include="images/assetIcon.png">
+      <publishTime>12/27/2019 10:30:43</publishTime>
+    </File>
+    <File Include="images/bandImage-01.jpg">
+      <publishTime>12/27/2019 10:30:43</publishTime>
+    </File>
+    <File Include="images/bandImage-02.jpg">
+      <publishTime>12/27/2019 10:30:43</publishTime>
+    </File>
+    <File Include="images/bandImage-03.jpg">
+      <publishTime>12/27/2019 10:30:43</publishTime>
+    </File>
+    <File Include="images/bandImage-04.jpg">
+      <publishTime>12/27/2019 10:30:43</publishTime>
+    </File>
+    <File Include="images/bannerImg.jpg">
+      <publishTime>12/27/2019 10:30:43</publishTime>
+    </File>
+    <File Include="images/biodetailImg-01.jpg">
+      <publishTime>12/27/2019 10:30:43</publishTime>
+    </File>
+    <File Include="images/bioImg-01.jpg">
+      <publishTime>12/27/2019 10:30:43</publishTime>
+    </File>
+    <File Include="images/bioImg-02.jpg">
+      <publishTime>12/27/2019 10:30:43</publishTime>
+    </File>
+    <File Include="images/bioImg-03.jpg">
+      <publishTime>12/27/2019 10:30:43</publishTime>
+    </File>
+    <File Include="images/bioImg-04.jpg">
+      <publishTime>12/27/2019 10:30:43</publishTime>
+    </File>
+    <File Include="images/checkIcon.png">
+      <publishTime>12/27/2019 10:30:43</publishTime>
+    </File>
+    <File Include="images/dashed-liBg.gif">
+      <publishTime>12/27/2019 10:30:43</publishTime>
+    </File>
+    <File Include="images/downloadArrow.png">
+      <publishTime>12/27/2019 10:30:43</publishTime>
+    </File>
+    <File Include="images/fbIcon.png">
+      <publishTime>12/27/2019 10:30:43</publishTime>
+    </File>
+    <File Include="images/founder-img.jpg">
+      <publishTime>12/27/2019 10:30:43</publishTime>
+    </File>
+    <File Include="images/inIcon.png">
+      <publishTime>12/27/2019 10:30:43</publishTime>
+    </File>
+    <File Include="images/inputSearchIcon.png">
+      <publishTime>12/27/2019 10:30:43</publishTime>
+    </File>
+    <File Include="images/investIcon.png">
+      <publishTime>12/27/2019 10:30:43</publishTime>
+    </File>
+    <File Include="images/leadershipBg.jpg">
+      <publishTime>12/27/2019 10:30:43</publishTime>
+    </File>
+    <File Include="images/leaseIcon.png">
+      <publishTime>12/27/2019 10:30:43</publishTime>
+    </File>
+    <File Include="images/leftBoxBg.png">
+      <publishTime>12/27/2019 10:30:43</publishTime>
+    </File>
+    <File Include="images/logo.png">
+      <publishTime>12/27/2019 10:30:43</publishTime>
+    </File>
+    <File Include="images/occupancyIcon.png">
+      <publishTime>12/27/2019 10:30:43</publishTime>
+    </File>
+    <File Include="images/officeLargeImg.jpg">
+      <publishTime>12/27/2019 10:30:43</publishTime>
+    </File>
+    <File Include="images/officeSmallImg-2.jpg">
+      <publishTime>12/27/2019 10:30:43</publishTime>
+    </File>
+    <File Include="images/officeSmallImg-3.jpg">
+      <publishTime>12/27/2019 10:30:43</publishTime>
+    </File>
+    <File Include="images/officeSmallImg.jpg">
+      <publishTime>12/27/2019 10:30:43</publishTime>
+    </File>
+    <File Include="images/propertyIcon.png">
+      <publishTime>12/27/2019 10:30:43</publishTime>
+    </File>
+    <File Include="images/rightBgIcon.jpg">
+      <publishTime>12/27/2019 10:30:43</publishTime>
+    </File>
+    <File Include="images/rightBgIcon.png">
+      <publishTime>12/27/2019 10:30:43</publishTime>
+    </File>
+    <File Include="images/scrollTop.png">
+      <publishTime>12/27/2019 10:30:43</publishTime>
+    </File>
+    <File Include="images/searchIcon.png">
+      <publishTime>12/27/2019 10:30:43</publishTime>
+    </File>
+    <File Include="images/successIcon.png">
+      <publishTime>12/27/2019 10:30:43</publishTime>
+    </File>
+    <File Include="images/tenantIcon.png">
+      <publishTime>12/27/2019 10:30:43</publishTime>
+    </File>
+    <File Include="images/totalIcon.png">
+      <publishTime>12/27/2019 10:30:43</publishTime>
+    </File>
+    <File Include="images/twitterIcon.png">
+      <publishTime>12/27/2019 10:30:43</publishTime>
+    </File>
+    <File Include="images/valueIcon.png">
+      <publishTime>12/27/2019 10:30:43</publishTime>
+    </File>
+    <File Include="images/videoImage.jpg">
+      <publishTime>12/27/2019 10:30:43</publishTime>
+    </File>
+    <File Include="images/videoPlayIcon.png">
+      <publishTime>12/27/2019 10:30:43</publishTime>
+    </File>
+    <File Include="images/wellnessBg.jpg">
+      <publishTime>12/27/2019 10:30:43</publishTime>
+    </File>
+    <File Include="images/workingWPCBanner.jpg">
+      <publishTime>12/27/2019 10:30:43</publishTime>
+    </File>
+    <File Include="images/WPC_Working-for-WPC---Copy.jpg">
+      <publishTime>12/27/2019 10:30:43</publishTime>
+    </File>
+    <File Include="js/aos.js">
+      <publishTime>12/27/2019 10:30:43</publishTime>
+    </File>
+    <File Include="js/bootstrap.min.js">
+      <publishTime>12/27/2019 10:30:43</publishTime>
+    </File>
+    <File Include="js/custom.js">
+      <publishTime>12/27/2019 10:30:43</publishTime>
+    </File>
+    <File Include="Models/financial.cs">
+      <publishTime>01/10/2020 15:07:00</publishTime>
+    </File>
+    <File Include="Models/financialList.cs">
+      <publishTime>01/10/2020 14:56:32</publishTime>
+    </File>
+    <File Include="Views/financial/Financial.cshtml">
+      <publishTime>01/10/2020 15:34:15</publishTime>
+    </File>
+    <File Include="Views/financial/Health.cshtml">
+      <publishTime>01/13/2020 11:02:13</publishTime>
+    </File>
+    <File Include="Views/financial/Index.cshtml">
+      <publishTime>01/13/2020 11:35:41</publishTime>
+    </File>
+    <File Include="Views/web.config">
+      <publishTime>12/27/2019 09:27:44</publishTime>
+    </File>
+    <File Include="Views/WPC/About Us/AboutUsPage/AboutUsPage.cshtml">
+      <publishTime>01/08/2020 12:08:23</publishTime>
+    </File>
+    <File Include="Views/WPC/About Us/AboutUsPage/Banner.cshtml">
+      <publishTime>01/07/2020 15:25:43</publishTime>
+    </File>
+    <File Include="Views/WPC/About Us/AboutUsPage/Culture.cshtml">
+      <publishTime>01/08/2020 09:32:55</publishTime>
+    </File>
+    <File Include="Views/WPC/About Us/AboutUsPage/Culture2.cshtml">
+      <publishTime>01/08/2020 10:35:22</publishTime>
+    </File>
+    <File Include="Views/WPC/About Us/AboutUsPage/CultureItem.cshtml">
+      <publishTime>01/08/2020 10:50:50</publishTime>
+    </File>
+    <File Include="Views/WPC/About Us/AboutUsPage/CultureRow.cshtml">
+      <publishTime>01/08/2020 10:46:41</publishTime>
+    </File>
+    <File Include="Views/WPC/About Us/AboutUsPage/History.cshtml">
+      <publishTime>01/07/2020 15:36:13</publishTime>
+    </File>
+    <File Include="Views/WPC/About Us/AboutUsPage/People.cshtml">
+      <publishTime>01/08/2020 09:47:02</publishTime>
+    </File>
+    <File Include="Views/WPC/About Us/Banner.cshtml">
+      <publishTime>01/07/2020 15:25:43</publishTime>
+    </File>
+    <File Include="Views/WPC/About Us/Culture.cshtml">
+      <publishTime>01/08/2020 09:32:55</publishTime>
+    </File>
+    <File Include="Views/WPC/About Us/Culture2.cshtml">
+      <publishTime>01/08/2020 10:35:22</publishTime>
+    </File>
+    <File Include="Views/WPC/About Us/CultureItem.cshtml">
+      <publishTime>01/08/2020 10:50:50</publishTime>
+    </File>
+    <File Include="Views/WPC/About Us/CultureRow.cshtml">
+      <publishTime>01/08/2020 10:46:41</publishTime>
+    </File>
+    <File Include="Views/WPC/About Us/History.cshtml">
+      <publishTime>01/07/2020 15:36:13</publishTime>
+    </File>
+    <File Include="Views/WPC/About Us/Layout/AboutUs.cshtml">
+      <publishTime>01/09/2020 14:23:08</publishTime>
+    </File>
+    <File Include="Views/WPC/About Us/Layout/AboutUsOld.cshtml">
+      <publishTime>01/08/2020 12:49:47</publishTime>
+    </File>
+    <File Include="Views/WPC/About Us/Leadership Details/LeaderData.cshtml">
+      <publishTime>01/09/2020 13:26:00</publishTime>
+    </File>
+    <File Include="Views/WPC/About Us/Leadership Details/LeadershipDetailsPage.cshtml">
+      <publishTime>01/09/2020 12:20:54</publishTime>
+    </File>
+    <File Include="Views/WPC/About Us/Leadership/BOD.cshtml">
+      <publishTime>01/09/2020 11:08:15</publishTime>
+    </File>
+    <File Include="Views/WPC/About Us/Leadership/Leader.cshtml">
+      <publishTime>01/09/2020 12:53:58</publishTime>
+    </File>
+    <File Include="Views/WPC/About Us/Leadership/LeaderRow.cshtml">
+      <publishTime>01/09/2020 11:42:37</publishTime>
+    </File>
+    <File Include="Views/WPC/About Us/Leadership/LeadershipPage.cshtml">
+      <publishTime>01/09/2020 12:00:17</publishTime>
+    </File>
+    <File Include="Views/WPC/About Us/Leadership/Management.cshtml">
+      <publishTime>01/09/2020 12:00:06</publishTime>
+    </File>
+    <File Include="Views/WPC/About Us/People.cshtml">
+      <publishTime>01/08/2020 09:47:02</publishTime>
+    </File>
+    <File Include="Views/WPC/About Us/Working for WPC/Benefits.cshtml">
+      <publishTime>01/13/2020 15:52:16</publishTime>
+    </File>
+    <File Include="Views/WPC/About Us/Working for WPC/Culture.cshtml">
+      <publishTime>01/09/2020 10:12:50</publishTime>
+    </File>
+    <File Include="Views/WPC/About Us/Working for WPC/JobOpportunities.cshtml">
+      <publishTime>01/13/2020 11:29:00</publishTime>
+    </File>
+    <File Include="Views/WPC/About Us/Working for WPC/Values.cshtml">
+      <publishTime>01/08/2020 14:30:22</publishTime>
+    </File>
+    <File Include="Views/WPC/About Us/Working for WPC/ValuesRow.cshtml">
+      <publishTime>01/08/2020 16:22:56</publishTime>
+    </File>
+    <File Include="Views/WPC/About Us/Working for WPC/WorkingForWPC.cshtml">
+      <publishTime>01/08/2020 14:49:44</publishTime>
+    </File>
+    <File Include="Views/WPC/Contact Us/Banner.cshtml">
+      <publishTime>01/07/2020 10:47:52</publishTime>
+    </File>
+    <File Include="Views/WPC/Contact Us/Details.cshtml">
+      <publishTime>01/09/2020 16:26:39</publishTime>
+    </File>
+    <File Include="Views/WPC/Contact Us/DetailsRow.cshtml">
+      <publishTime>01/07/2020 10:25:16</publishTime>
+    </File>
+    <File Include="Views/WPC/Contact Us/heading.cshtml">
+      <publishTime>01/07/2020 09:39:44</publishTime>
+    </File>
+    <File Include="Views/WPC/Contact Us/Layout/ContactUs.cshtml">
+      <publishTime>01/07/2020 15:03:39</publishTime>
+    </File>
+    <File Include="Views/WPC/Contact Us/Location.cshtml">
+      <publishTime>01/09/2020 16:26:43</publishTime>
+    </File>
+    <File Include="Views/WPC/Contact Us/LocationRow.cshtml">
+      <publishTime>01/07/2020 12:28:17</publishTime>
+    </File>
+    <File Include="Views/WPC/Contact Us/OfficeLocation.cshtml">
+      <publishTime>01/07/2020 13:58:53</publishTime>
+    </File>
+    <File Include="Views/WPC/Home/AboutUs.cshtml">
+      <publishTime>12/27/2019 14:57:40</publishTime>
+    </File>
+    <File Include="Views/WPC/Home/CapabilitiesList.cshtml">
+      <publishTime>01/13/2020 13:47:45</publishTime>
+    </File>
+    <File Include="Views/WPC/Home/ContactUs.cshtml">
+      <publishTime>12/27/2019 14:58:21</publishTime>
+    </File>
+    <File Include="Views/WPC/Home/HomePage.cshtml">
+      <publishTime>01/13/2020 15:53:20</publishTime>
+    </File>
+    <File Include="Views/WPC/Home/Layouts/Home.cshtml">
+      <publishTime>01/09/2020 14:41:57</publishTime>
+    </File>
+    <File Include="Views/WPC/Home/OurCapabilities.cshtml">
+      <publishTime>01/13/2020 11:51:07</publishTime>
+    </File>
+    <File Include="Views/WPC/Home/OurInvestors.cshtml">
+      <publishTime>01/09/2020 14:43:20</publishTime>
+    </File>
+    <File Include="Views/WPC/Home/OurPortfolio.cshtml">
+      <publishTime>01/13/2020 15:54:00</publishTime>
+    </File>
+    <File Include="Views/WPC/Home/Press Release.cshtml">
+      <publishTime>01/08/2020 16:07:03</publishTime>
+    </File>
+    <File Include="Views/WPC/Home/Report.cshtml">
+      <publishTime>12/27/2019 15:43:12</publishTime>
+    </File>
+    <File Include="Views/WPC/Home/Report1.cshtml">
+      <publishTime>12/27/2019 12:26:06</publishTime>
+    </File>
+    <File Include="Views/WPC/Home/Report2.cshtml">
+      <publishTime>12/27/2019 11:38:07</publishTime>
+    </File>
+    <File Include="Views/WPC/Home/ReportSection.cshtml">
+      <publishTime>12/27/2019 15:53:44</publishTime>
+    </File>
+    <File Include="Views/WPC/Home/ReportVideo.cshtml">
+      <publishTime>01/09/2020 14:49:36</publishTime>
+    </File>
+    <File Include="Views/WPC/Home/Stats.cshtml">
+      <publishTime>01/06/2020 16:14:21</publishTime>
+    </File>
+    <File Include="Views/WPC/Home/StatsRow.cshtml">
+      <publishTime>01/06/2020 11:27:27</publishTime>
+    </File>
+    <File Include="Views/WPC/Home/Stock Information.cshtml">
+      <publishTime>01/06/2020 14:29:10</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>12/27/2019 09:42:17</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
